@@ -3,6 +3,7 @@
 :root {
   --primary-color: #1e3a8a;
   --dark-gray-color: #6b7280;
+  --offwhite-color: #f3f4f6;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -95,4 +96,15 @@ hr {
 
 .heading-invert {
   color: var(--primary-color);
+}
+
+.sectionBlock {
+  padding: 2rem;
+}
+.sectionBlock h3 {
+  text-align: center;
+}
+
+.owSection {
+  background-color: var(--offwhite-color);
 }
