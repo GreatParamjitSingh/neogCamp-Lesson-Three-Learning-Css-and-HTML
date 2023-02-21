@@ -17,7 +17,7 @@ hr {
 /* container */
 .container {
   padding: 0rem 1rem;
-  /* both above and below will do the same operation  */
+  /* both above and below code will do the same operation  */
 
   /* padding-left: 1rem;
   padding-right: 1rem; */
@@ -36,15 +36,14 @@ hr {
   background-color: var(--primary-color);
   color: white;
   border-radius: 0.5rem;
+  display: inline-block;
 }
 
 .link-secondary {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 0.5rem;
-  /* background-color: var(--primary-color);
-  color: white;
-  border-radius: 0.5rem; */
+  display: inline-block;
 }
 
 .list-no-bullet {
@@ -56,6 +55,9 @@ hr {
   padding: 0rem 0.5rem;
 }
 
+.ordered-List-settings {
+  margin-left: 1.4rem;
+}
 .navigation {
   background-color: var(--primary-color);
   color: white;
@@ -81,7 +83,7 @@ hr {
 }
 
 .hero {
-  padding: 1rem;
+  padding: 5rem 2rem 2rem 2rem;
 }
 
 .hero .hero-image {
@@ -128,6 +130,8 @@ hr {
 .footer ul {
   padding-inline-start: 0px;
 }
-/* .social-links {
-  padding-inline-start: 0px;
-} */
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
