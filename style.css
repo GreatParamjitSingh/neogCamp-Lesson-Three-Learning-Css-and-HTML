@@ -5,8 +5,10 @@
   --dark-gray-color: #6b7280;
   --offwhite-color: #f3f4f6;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 
 hr {
@@ -92,6 +94,7 @@ hr {
   font-size: 2.5rem;
   color: var(--dark-gray-color);
   padding-top: 1rem;
+  text-align: center;
 }
 
 .heading-invert {
@@ -108,3 +111,23 @@ hr {
 .owSection {
   background-color: var(--offwhite-color);
 }
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 1rem;
+
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+/* .social-links {
+  padding-inline-start: 0px;
+} */
